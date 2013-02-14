@@ -21,7 +21,8 @@
 	</developers>
 
 	<properties>
-		<mongo.driver.version>2.10.0</mongo.driver.version>
+		<jongo.version>0.3</jongo.version>
+		<mongo.driver.version>2.10.1</mongo.driver.version>
 		<junit.version>4.10</junit.version>
 	</properties>
 
@@ -30,9 +31,14 @@
 		<dependency>
 			<groupId>org.jongo</groupId>
 			<artifactId>jongo</artifactId>
-			<version>0.3</version>
+			<version>${jongo.version}</version>
 		</dependency>
-
+		<dependency>
+			<groupId>org.mongodb</groupId>
+			<artifactId>mongo-java-driver</artifactId>
+			<version>${mongo.driver.version}</version>
+		</dependency>
+		
 		<!-- Testing -->
 		<dependency>
 			<groupId>junit</groupId>
