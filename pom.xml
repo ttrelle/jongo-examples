@@ -23,7 +23,7 @@
 	<properties>
 		<jongo.version>0.4</jongo.version>
 		<mongo.driver.version>2.10.1</mongo.driver.version>
-		<junit.version>4.10</junit.version>
+		<junit.version>4.12</junit.version>
 	</properties>
 
 	<dependencies>
