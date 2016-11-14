@@ -4,7 +4,7 @@ import java.net.UnknownHostException;
 import java.util.ArrayList;
 import java.util.List;
 
-import static junit.framework.Assert.*;
+import static org.junit.Assert.*;
 
 import org.jongo.Jongo;
 import org.jongo.MongoCollection;
